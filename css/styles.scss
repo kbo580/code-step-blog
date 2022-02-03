@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  background-color: rgba(241,92,168,0.2);
+  // background-color: rgba(241,92,168,0.2);
   padding: 0 16px;
 }
 
@@ -72,6 +72,11 @@ body {
   }
 }
 
+/* 中央配置 */
+.tac{
+  text-align: center;
+}
+
 @media (min-width:766px){
   .flex{
     display: flex;
@@ -91,7 +96,7 @@ body {
 
 
 header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
-  background-color: rgba(0,200,100,0.1);
+  // background-color: rgba(0,200,100,0.1);
   // border: 1px solid rgba(0,0,0,0.4);
 }
 
@@ -213,6 +218,59 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
     font-size: rem(16);
   }
 }
+
+/* -------------------------------------------- */
+/* aside */
+/* -------------------------------------------- */
+/* asideのセクション */
+.aside-section{
+  margin-bottom: 60px;
+  &:last-child{
+    margin-bottom: 120px;
+  }
+}
+
+/* プロフィール画像 */
+.profile-image{
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 30px;
+  img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ランキング記事 */
+.ranking-wrapper{
+  margin-bottom: 30px;
+}
+
+/* 月間アーカイブのリスト */
+.archive-list{
+
+}
+
+.archive-list-item{
+  border-bottom: 1px solid #333;
+  padding: 20px;
+
+  &:first-child{
+    border-top: 1px solid #333;
+  }
+}
+
+
+@media (min-width:766px){
+  /* asideのセクション */
+  .aside-section:last-child{
+    margin-bottom: 140px;
+  }
+}
+
+
 /* -------------------------------------------- */
 /*  */
 /* -------------------------------------------- */

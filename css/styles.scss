@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  // background-color: rgba(241,92,168,0.2);
+  background-color: rgba(241,92,168,0.2);
   padding: 0 16px;
 }
 
@@ -51,6 +51,7 @@ body {
 }
 
 @media (min-width:766px){
+
   .flex{
     display: flex;
     justify-content: space-between;
@@ -70,6 +71,52 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
 /* -------------------------------------------- */
 /* header */
 /* -------------------------------------------- */
+/* サイトロゴ */
+.site-logo{
+  padding: 20px 16px;
+  line-height: 1;
+}
+
+.top-link{
+  display: inline-block;
+}
+
+.site-logo-image{
+  width: 100%;
+  height: 100%;
+}
+
+/* headerナビ */
+.header-nav{
+  background-color: #333;
+  color: #fff;
+}
+
+.header-nav-list{
+  overflow-x: scroll;
+  padding: 10px 16px;
+}
+
+.header-nav-list{
+  display: flex;
+}
+
+.header-nav-item{
+  margin-right: 60px;
+}
+
+@media (min-width:766px){
+  .header-nav-list{
+    overflow-x: hidden;
+  }
+
+  .header-nav-link{
+    transition: all .4s;
+    &:hover{
+      opacity: .6;
+    }
+  }
+}
 
 
 @media (min-width:766px){

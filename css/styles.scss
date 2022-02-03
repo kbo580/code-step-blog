@@ -50,11 +50,18 @@ body {
   margin-bottom: 30px;
 }
 
+@media (min-width:766px){
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 
 
 
 header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
-  // background-color: rgba(0,200,100,0.1);
+  background-color: rgba(0,200,100,0.1);
   // border: 1px solid rgba(0,0,0,0.4);
 }
 
@@ -65,6 +72,9 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
 /* -------------------------------------------- */
 
 
+@media (min-width:766px){
+  
+}
 
 
 
@@ -128,4 +138,26 @@ footer{
 
 .copy{
   text-align: center;
+}
+
+@media (min-width:766px){
+  .footer-wrapper{
+    padding-bottom: 60px;
+  }
+
+  .about{
+    width: 30%;
+  }
+
+  .about-text{
+    margin-bottom: 40px;
+  }
+
+  .menu{
+    width: 30%;
+  }
+
+  .twitter{
+    width: 30%;
+  }
 }

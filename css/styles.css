@@ -46,6 +46,21 @@ body {
   margin-bottom: 30px;
 }
 
+@media (min-width: 766px) {
+  .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+header, main, section, footer, article, aside, div, ul, li, h1, h2, h3 {
+  background-color: rgba(0, 200, 100, 0.1);
+}
+
 /* -------------------------------------------- */
 /* header */
 /* -------------------------------------------- */
@@ -110,5 +125,23 @@ footer {
 
 .copy {
   text-align: center;
+}
+
+@media (min-width: 766px) {
+  .footer-wrapper {
+    padding-bottom: 60px;
+  }
+  .about {
+    width: 30%;
+  }
+  .about-text {
+    margin-bottom: 40px;
+  }
+  .menu {
+    width: 30%;
+  }
+  .twitter {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -87,13 +87,23 @@ body {
     width: 65%;
   }
   aside {
-    width: 30%;
+    width: 33%;
+    padding: 20px;
   }
 }
 
 /* -------------------------------------------- */
 /* header */
 /* -------------------------------------------- */
+.header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 /* サイトロゴ */
 .site-logo {
   padding: 20px 16px;
@@ -146,6 +156,10 @@ body {
 /* -------------------------------------------- */
 /* pickup */
 /* -------------------------------------------- */
+.pickup {
+  padding-top: 150px;
+}
+
 .pickup-heading {
   font-size: 1rem;
   margin: 10px 0 15px;
@@ -312,6 +326,7 @@ footer {
 
 .copy {
   text-align: center;
+  font-size: 0.75rem;
 }
 
 @media (min-width: 766px) {
@@ -320,9 +335,6 @@ footer {
   }
   .about {
     width: 30%;
-  }
-  .about-text {
-    margin-bottom: 40px;
   }
   .menu {
     width: 30%;

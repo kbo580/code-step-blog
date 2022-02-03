@@ -88,7 +88,8 @@ body {
   }
 
   aside{
-    width: 30%;
+    width: 33%;
+    padding: 20px;
   }
 }
 
@@ -105,6 +106,15 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
 /* -------------------------------------------- */
 /* header */
 /* -------------------------------------------- */
+.header{
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 /* サイトロゴ */
 .site-logo{
   padding: 20px 16px;
@@ -153,14 +163,11 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
 }
 
 
-
-
-
 /* -------------------------------------------- */
 /* pickup */
 /* -------------------------------------------- */
 .pickup{
-
+  padding-top: 150px;
 }
 
 .pickup-heading{
@@ -179,6 +186,7 @@ header,main,section,footer, article, aside, div, ul, li, h1,h2,h3{
     margin-bottom: 65px;
   }
 }
+
 /* -------------------------------------------- */
 /* main記事 */
 /* -------------------------------------------- */
@@ -334,6 +342,7 @@ footer{
 
 .copy{
   text-align: center;
+  font-size: rem(12);
 }
 
 @media (min-width:766px){
@@ -343,10 +352,6 @@ footer{
 
   .about{
     width: 30%;
-  }
-
-  .about-text{
-    margin-bottom: 40px;
   }
 
   .menu{
